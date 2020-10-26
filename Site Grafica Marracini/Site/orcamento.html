@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+ 
+  <title>Gráfica Marracini | Inicio</title>
+  <link rel="icon" type="image/png" href="img/logo.jpg"/>
+    
+  <meta charset="utf-8">
+  <meta name="description" content="Serviços Graficos para região de indaiatuba">
+  <meta name="keywords" content="grafica graficamarracini indaiatuba serviços graficos graficasindaiatuba indaiatuba envelope revista cartão de visita banners panfletos pasta receituario">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" type="text/css" href="css/home.css" media="screen" />
+   <!-- LINK FONTE OPEN SANS -->  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+   
+    
+<!-- LINKS BOOTSTRAP / Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+      
+       
+  
+</head>
+<body class="bg-light">
+    
+
+    
+    <!-- MENU - NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <!-- LOGO - NAV -->
+        <div class="navbar-header">
+            <a class="col-6 navbar-brand text-warning" href="../index.html" >
+                <img src="img/logo.png" width="150px"; height="50px"></a>
+        </div>
+        <!-- BOTÃO HAMBURGUER - NAV -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto fonte">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="col nav-link" href="empresa.html">Empresa</a>
+                </li>                
+                <li class="nav-item">
+                    <a class="col nav-link active" href="orcamento.html">Orçamento</a>
+                </li>
+            </ul>
+            
+            <ul class="navbar-nav ml-auto fonte">
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    
+    
+    <div class="container contact-form">
+           
+        
+        
+            <form id="form1" name="contato" method="post" action="orcamento.php">
+                
+                <h2 style="margin-bottom: 20px; margin-top:20px;">Solicitar Orçamento</h2>
+                <h6>Informações do cliente</h6>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa *"  />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Seu Nome *" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Seu Email *"  />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="telefone" id="telefone" class="form-control" placeholder="Seu Telefone *"/>
+                        </div>
+                        <div>
+                        <h6>Informações do Orçamento</h6>
+                        </div>
+                         <div class="form-group">
+                             <p style="margin-bottom: 0; margin-top: 0;">Quantidade</p>
+                            <input type="text" name="quantidade" id="quantidade" class="form-control" placeholder="Digite a Quantidade Desejada. Exemplo: 1000/2000/5000 *"/>
+                        </div>
+                         <div class="form-group">
+                             <p style="margin-bottom: 0; margin-top: 0;">Formato</p>
+                            <input type="text" name="formato" id="formato" class="form-control" placeholder="Digita a altera x largura. Exemplo: 21 x 29,7cm *"/>
+                        </div>
+                        <div>
+                            <p style="margin-bottom: 0; margin-top: 0;">Papel</p>
+                            <select name="papel" id="papel" class="custom-select mb-3">
+                            <option selected>Selecione o Papel Desejado</option>
+                            <option value="Couchê Brilho 90gr.">Couchê Brilho 90gr.</option>
+                            <option value="Couchê Brilho 115gr.">Couchê Brilho 115gr.</option>
+                            <option value="Couchê Brilho 150gr.">Couchê Brilho 150gr.</option>
+                            <option value="Couchê Brilho 170gr.">Couchê Brilho 170gr.</option>
+                            <option value="Couchê Brilho 210gr.">Couchê Brilho 210gr.</option>
+                            <option value="Couchê Brilho 250gr.">Couchê Brilho 250gr.</option>
+                            <option value="Couchê Brilho 300gr.">Couchê Brilho 300gr.</option>
+                                
+                            <option value="Couchê Fosco 90gr.">Couchê Fosco 90gr.</option>
+                            <option value="Couchê Fosco 115gr.">Couchê Fosco 115gr.</option>
+                            <option value="Couchê Fosco 150gr.">Couchê Fosco 150gr.</option>
+                            <option value="Couchê Fosco 170gr.">Couchê Fosco 170gr.</option>
+                            <option value="Couchê Fosco 210gr.">Couchê Fosco 210gr.</option>
+                            <option value="Couchê Fosco 250gr.">Couchê Fosco 250gr.</option>
+                            <option value="Couchê Fosco 300gr.">Couchê Fosco 300gr.</option>
+                                
+                            <option value="Offset">Offset 75gr.</option>
+                            <option value="Offset">Offset 90gr.</option>
+                            <option value="Offset">Offset 120gr.</option>
+                            <option value="Offset">Offset 150gr.</option>
+                            <option value="Offset">Offset 180gr.</option>
+                            <option value="Offset">Offset 240gr.</option>
+                                
+                            <option value="Reciclado">Reciclado 75gr.</option>
+                            <option value="Reciclado">Reciclado 90gr.</option>
+                            <option value="Reciclado">Reciclado 120gr.</option>
+                            <option value="Reciclado">Reciclado 150gr.</option>
+                            <option value="Reciclado">Reciclado 180gr.</option>
+                            <option value="Reciclado">Reciclado 240gr.</option>
+                                
+                                
+                            <option value="Duplex 230gr.">Duplex 230gr.</option>
+                            <option value="Duplex 280gr.">Duplex 280gr.</option>
+                                
+                            <option value="Triplex 230gr.">Triplex 230gr.</option>
+                            <option value="Triplex 250gr.">Triplex 250gr.</option>
+                            <option value="Triplex 280gr.">Triplex 280gr.</option>
+                            <option value="Triplex 350gr.">Triplex 350gr.</option>
+                            </select>
+                        </div>                       
+                        <div>
+                            <p style="margin-bottom: 0; margin-top: 0;">Cores</p>
+                            <select name="cores" id="cores" class="custom-select mb-3">
+                            <option selected>Selecione a cor Desejada</option>
+                            <option value="4X4 CORES">4x4 (Impressão colorida Frente e Verso)</option>
+                            <option value="4X0 CORES">4x0 (Impressão colorido Apenas Frente)</option>
+                            <option value="COR ESPECIAL FRENTE E VERSO">Cor Especial (Impressão Frente e Verso)</option>
+                            <option value="COR ESPECIAL FRENTE">Cor Especial Apenas (Impressão Apenas Frente)</option>
+                            <option value="PB FRENTE E VERSO">Preto e Branco (Impressão Frente e Verso)</option>
+                            <option value="PB FRENTE">Preto e Branco (Impressão Apenas Frente)</option>
+                            <option value="PANTONE FRENTE E VERSO">Pantone (Impressão Frente e Verso)</option>
+                            <option value="PANTONE FRENTE">Pantone (Impressão Apenas Frente)</option>
+                            </select>
+                        </div>  
+                        
+                        <div>
+                            <p style="margin-bottom: 0; margin-top: 0;">Acabamento</p>
+                            <select name="acabamento" id="acabamento" class="custom-select mb-3">
+                            <option selected>Selecione o Acabamento Desejado</option>
+                            <option value="LAMINAÇÃO FOSCA FRENTE E VERSO">Laminação Fosca Frente e Verso</option>
+                            <option value="LAMINAÇÃO FOSCA FRENTE">Laminação Fosca Apenas Frente</option>
+                            <option value="LAMINAÇÃO FOSCA + VERNIZ U.V. LOCALIZADO FRENTE E VERSO">Laminação Fosca + Verniz U.V. Localizado Frente e Verso</option>
+                            <option value="LAMINAÇÃO FOSCA + VERNIZ U.V. LOCALIZADO APENAS FRENTE">Laminação Fosca + Verniz U.V. Localizado Apenas Frente</option>
+                            <option value="VERNIZ U.V. TOTAL FRENTE E VERSO">Verniz U.V Total Frente e Verso</option>
+                            <option value="VERNIZ U.V. TOTAL FRENTE ">Verniz U.V Total Apenas Frente</option>
+                            <option value="VERNIZ U.V. LOCALIZADO FRENTE E VERSO">Verniz U.V Localizado Frente e Verso</option>
+                            <option value="VERNIZ U.V. LOCALIZADO FRENTE ">Verniz U.V Localizado Apenas Frente</option>
+                            </select>
+                        </div>  
+                        
+                        
+                        <div class="form-group">
+                             <p style="margin-bottom: 0; margin-top: 0;">Outras Informações</p>
+                            <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Descreva seu material *" style="width: 100%; height: 150px;"></textarea>
+                        </div> 
+                        
+                        <div class="form-group"> 
+                            <div class="col-md-12">                                                     
+                            <button type="submit" name="enviar" class="btn text-white bg-dark" value="Enviar">Enviar</button>          
+                            </div>                            
+                        </div> 
+                    </div> 
+                   <div class="col-md-6">
+                       <div id="teste" class="carousel slide" data-ride="carousel">
+                           <div class="carousel-inner">
+                               <div class="carousel-item active">       
+ <!-- 1ª Card -->
+        <div class="card-deck card-body text-center">
+             <!-- Card 1  -->
+            <div class="card">
+                <h5 class="card-title">Cartão de Visita</h5>
+                  <img class="card-img-top" src="img/cartaodevisita.jpg" alt="Card image cap">
+                  <div class="card-body">                      
+                      <p class="card-text">Geralmente é impresso em papel couchê 300 g/m² no formato 88mm x 48mm.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                      
+                  </ul>         
+              </div>
+        </div>
+      </div>
+ <!-- 2ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Folheto</h5>
+                  <img class="card-img-top" src="img/folheto.jpg" alt="Card image cap">
+                  <div class="card-body"> 
+                      <p class="card-text">Um folheto ou panfleto é um meio de divulgação de uma ideia ou marca, feito de papel e de fácil manuseabilidade. Por seu baixo custo é muito utilizado para atingir grandes públicos em pouco tempo.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                     
+                  </ul>                 
+              </div>
+          </div>
+      </div>
+  <!-- 3ª Card -->    
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Calendários</h5>
+                  <img class="card-img-top" src="img/calendarios.jpg" alt="Card image cap">
+                  <div class="card-body">                      
+                      <p class="card-text">Os calendários de mesa personalizados da Marracini, são produzidos com todos os materiais disponíveis no mercado. Com as opções de bases rígidas empastadas no cartão Paraná ou bases no Triplex 350 g/m². Os calendários podem ser acabados com wire-o. Podemos utilizar diversos tipos de papéis para a confecção dos calendários.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                      
+                  </ul>                  
+              </div>
+          </div>
+      </div>
+ <!-- 4ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Catálogos</h5>
+                  <img class="card-img-top" src="img/catalogo.png" alt="Card image cap">
+                  <div class="card-body">
+                      <p class="card-text">Uma revista é uma publicação periódica de cunho informativo, jornalístico ou de entretenimento, geralmente voltada para o público em geral.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                     
+                  </ul>                  
+              </div>
+          </div>
+      </div>
+ <!-- 5ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Folders</h5>
+                  <img class="card-img-top" src="img/folder.png" alt="Card image cap">
+                  <div class="card-body">
+                      <p class="card-text">O folder é utilizado quando se quer passar uma grande quantidade de informações, ou então quando se faz necessário dar uma aparência estética a alguma mensagem de teor informativo ou publicitário. </p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                      
+                  </ul>                  
+              </div> 
+          </div>
+      </div>
+<!-- 6ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Tags Personalizadas</h5>
+                  <img class="card-img-top" src="img/tags.png" alt="Card image cap">
+                  <div class="card-body">
+                      <p class="card-text">As TAGS, ou etiquetas no inglês, são muito utilizadas em mercadorias e/ou arquivos para auxiliar na identiﬁcação e diferenciação de objetos, ou até mesmo para a demarcação de marcas.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                     
+                  </ul>                  
+              </div>
+          </div>
+      </div>
+<!-- 7ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Bloco/ Talões</h5>
+                  <img class="card-img-top" src="Site/img/bt.png" alt="Card image cap">
+                  <div class="card-body">
+                      <p class="card-text">Os blocos podem ser utilizados para diversos ﬁns, entre eles para transferir informações de sua empresa para seus clientes, para passar orçamentos, ser utilizado de receituário, desenhar ou para simplesmente anotar algo que tenha que se lembrar depois.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                     
+                  </ul>                 
+              </div>
+          </div>
+      </div>
+ <!-- 8ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Cadernos</h5>
+                  <img class="card-img-top" src="Site/img/cadernos.png" alt="Card image cap">
+                  <div class="card-body">                      
+                      <p class="card-text">Buscamos atender de forma diferenciada a necessidade de cada pessoa/empresa com a confecção de cadernos personalizados fabricados de acordo com a vontade e demanda de cada cliente.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>                      
+                  </ul>                  
+              </div>
+          </div>
+      </div>
+<!-- 9ª Card -->
+      <div class="carousel-item">
+          <div class="card-deck card-body text-center">
+              <div class="card">
+                  <h5 class="card-title">Papelaria</h5>
+                  <img class="card-img-top" src="Site/img/papelaria.png" alt="Card image cap">
+                  <div class="card-body">                      
+                      <p class="card-text">Sua empresa deseja focar em sua identidade visual, existe um padrão de papelaria a ser utilizado. Estamos aqui para te ajudar com a produção de Envelopes persolizados, papel timbrado, pastas e muito mais.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Lote mínimo 100 unidades.</li>
+                      
+                  </ul>                  
+              </div>
+          </div>
+      </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                </div>
+        </form>
+    </div> 
+    
+     
+       <!-- Footer -->
+<footer class="page-footer font-small  pt-4 bg-dark">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row fonte">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase text-white">Gráfica Marracini</h5>
+          <p class="text-white">Muito mais que uma boa impressão!</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase text-white fonte">FALE CONOSCO</h5>
+
+            <ul class="list-unstyled fonte">
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=5519996046391&text=Solicite%20seu%20Or%C3%A7amento"><img src="img/whatsapp.png" width="30px" height="30px"><h5 class="text-uppercase text-white">(19) 9 9604-6391</h5></a>
+              </li>
+              <li>
+                  <a href="#!"><img src="img/telefone.png" width="30px" height="30px"><h5 class="text-uppercase text-white">(19) 3875-8105</h5></a>
+              </li>             
+            </ul>
+
+          </div>
+         
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-white fonte">© 2019 Copyright | Gráfica Marracini | Todos os direitos reservados | Desenvolvido por 
+      <a href="https://pt-br.facebook.com/GilmarEND" style="color: black">GS</a>
+    </div>
+    <!-- Copyright -->
+    
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
